@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppFormularioDatos</string>
+    <string name="textoNombre">Nombre Completo</string>
+    <string name="textoBoton">Siguiente</string>
+
+    <string name="hintNombre">Nombre Completo</string>
+    <string name="hintTelefono">Teléfono</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintDescripcioncontacto">Descripción</string>
+
+    <string name="textoTitulo">Confirmar Datos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="fechaNacimiento">Fecha de Nacimiento:</string>
+    <string name="fecha">01/08/1992</string>
+    <string name="textoTelefono">Teléfono:</string>
+    <string name="tel">51226630</string>
+    <string name="textoEmail">Email:</string>
+    <string name="email">guayoswing@gmail.com</string>
+    <string name="textoDescripcion">Descripción:</string>
+    <string name="descripcion">Este cabrón esta programando en Android Studio :)</string>
+
+    <string name="textoBotonEdit">Editar Datos</string>
+</resources>
