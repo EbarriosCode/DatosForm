@@ -20,4 +20,7 @@
     <string name="descripcion">Este cabrón esta programando en Android Studio :)</string>
 
     <string name="textoBotonEdit">Editar Datos</string>
+
+    <string name="textoActividad1">Datos Guardados Correctamente</string>
+    <string name="textoActividad2">Regresando a Actividad principal</string>
 </resources>

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 startActivity(intent);
                 validar = true;
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.textoActividad1),Toast.LENGTH_SHORT).show();
                 break;
         }
     }

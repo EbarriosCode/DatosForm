@@ -15,12 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecibirDatosActivity">
+        <activity android:name=".RecibirDatosActivity"
+                  android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.RECIBIRDATOS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value=".MainActivity"></meta-data>
         </activity>
     </application>
 

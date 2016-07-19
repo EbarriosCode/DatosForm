@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class RecibirDatosActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -21,6 +22,8 @@ public class RecibirDatosActivity extends AppCompatActivity implements View.OnCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recibir_datos);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         listarNombre = (TextView)findViewById(R.id.tvEditNombre);
         listarFecha = (TextView)findViewById(R.id.tvFechaEdit);
@@ -70,6 +73,7 @@ public class RecibirDatosActivity extends AppCompatActivity implements View.OnCl
                 intentEditar.putExtra("RegresandoDescripcion",listarDescripcion.getText());
 
                 startActivity(intentEditar);
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.textoActividad2),Toast.LENGTH_SHORT).show();
             break;
         }
     }
